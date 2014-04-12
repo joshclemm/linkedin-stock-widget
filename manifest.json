@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+   "content_scripts": [ {
+      "exclude_globs": [  ],
+      "exclude_matches": [  ],
+      "include_globs": [ ],
+      "js": [ "jquery.min.js", "script.js" ],
+      "matches": [ "https://*.linkedin.com/", "https://*.linkedin.com/?trk*", "https://*.linkedin.com/home*", "https://*.linkedin.com/nhome*", "http://*.linkedin.com/", "http://*.linkedin.com/?trk*", "http://*.linkedin.com/home*", "http://*.linkedin.com/nhome*" ],
+      "run_at": "document_idle"
+   } ],
+   "converted_from_user_script": true,
+   "description": "Keep track of your investments on LinkedIn's homepage",
+   "key": "JmNvsPSkgCRYG7kjhyqjcu2d8Mmv4u/YV4GQH0GpyT8=",
+   "name": "LinkedIn Homepage Stock Widget",
+   "version": "0.6.1"
+}
